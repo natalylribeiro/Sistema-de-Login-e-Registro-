@@ -7,7 +7,38 @@
     <link rel="stylesheet" href="criar-conta.css">
 </head>
 <body>
-   
+   <div class="container">
+        <section class="header">
+            <h2>Nova conta</h2>
+        </section>
+
+        <form id="form" class="form">
+            <div class="form-content">
+                <label for="username">Nome completo:</label>
+                <input type="text" id="username" placeholder="Digite o nome e sobrenome" />
+                <a>Aqui vai a mensagem de erro</a>
+            </div>
+            <div class="form-content">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="usuário@email.com" />
+                <a>Aqui vai a mensagem de erro</a>
+            </div>
+            <div class="form-content">
+                <label for="password">Senha:</label>
+                <input type="password" id="password" placeholder="Digite sua senha" />
+                <a>Aqui vai a mensagem de erro</a>
+            </div>
+            <div class="form-content">
+                <label for="password-confirmation">Confirmação de Senha:</label>
+                <input type="password" id="password-confirmation" placeholder="Digite sua senha novamente" />
+                <a>Aqui vai a mensagem de erro</a>
+            </div>
+
+            <button type="submit">Cadastrar</button>
+            
+        </form>
+    </div>
+    <script src="./criar-conta.js"></script> 
     
 </body>
 </html>
