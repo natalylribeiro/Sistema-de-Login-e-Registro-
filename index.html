@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça o Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="header">
+        <h1>Bem-vindo ao Sistema de Login</h1>
+        <div class="login-form">
+
+            <form action="/login" method="POST">
+                <label for="username">Nome de Usuário:</label>
+                <input type="text" id="username" placeholder="Nome@email.com" required>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" placeholder="Digite sua senha" name="password" required>
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+        <div class="cadastro-link">
+            <a href="criar-conta.html" target="_blank">Crie uma conta</a>
+            <a href="nova-senha.html" target="_blank">Esqueci minha senha</a>
+        </div>
+
+    </section>
+</body>
+
+</html>
