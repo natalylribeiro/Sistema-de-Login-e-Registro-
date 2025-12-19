@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redefinição de senha</title>
+    <link rel="stylesheet" href="nova-senha.css">
 </head>
 <body>
-    <h2>Redefinir Senha</h2>
+    <div class="container">
+        <section class="header">
+            <h2>Redefinir senha</h2>
+        </section>
+
+        <form id="form" class="form">
+            <div class="form-content">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Digite seu email para redefinir a senha" required>
+            </div>
+
+            <button type="submit">Enviar</button>
+            
+        </form>
+    </div>
+    <script src="./nova-senha.js"></script>
 </body>
 </html>
